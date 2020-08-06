@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    
+    <topic name="school interview">
+
+        <category>
+            <pattern>^ <set>softwareengineerinterests</set> ^</pattern>
+            <template>
+                <think>
+                    <set name="option">Software Engineer</set>
+                    <set name="interest"><star/></set>
+                </think>
+                <condition name="interest">
+                    <li value="applications">You can build applications that people use every day to make life easier!<br/></li>
+                    <li value="software">Software is a great interest!<br/></li>
+                    <li value="program">Programming skills will always be needed!<br/></li>
+                    <li value="programming">Programming is a challenge and needed skill in the field!<br/></li>
+                    <li>Those are excellent interests in engineering aspects!<br/></li>
+                </condition>
+                <srai>SCHOOL QUESTIONS</srai>
+            </template>
+        </category>
+
+        <category>
+            <pattern>^ <set>webdevinterests</set> ^</pattern>
+            <template>
+                <think>
+                    <set name="option">Web Developer</set>
+                    <set name="interest"><star/></set>
+                </think>
+                <condition name="interest">
+                    <li value="websites">Websites are so important for businesses communication with customers!<br/></li>
+                    <li value="marketing">Marketing takes research and knowing what people want!<br/></li>
+                    <li value="branding">Branding is one of the most difficult aspects of IT. Can't design an algorithm to solve this!<br/></li>
+                    <li>Those are excellent interests in design aspects!<br/></li>
+                </condition>
+                <srai>SCHOOL QUESTIONS</srai>
+            </template>
+        </category>
+
+        <category>
+            <pattern>^ <set>databaseadmininterests</set> ^</pattern>
+            <template>
+                <think>
+                    <set name="option">Database Administrator</set>
+                    <set name="interest"><star/></set>
+                </think>
+                <condition name="interest">
+                    <li value="databases">Databases may get really big! If you've got the skills big data becomes manageable!<br/></li>
+                    <li value="collections">Collections is a great interest!
+                    <li value="organization">Organization is a lifelong learned skill. This could put you ahead of the game!<br/></li>
+                    <li value="administration">Admin jobs require leadership skills. Not everyone is up for the task of making many different personalities work together!<br/></li>
+                    <li>Those are excellent interests in data aspects!<br/></li>
+                </condition>
+                <srai>SCHOOL QUESTIONS</srai>
+            </template>
+        </category>
+
+        <category>
+            <pattern>^ <set>systemsanalystinterests</set> ^</pattern>
+            <template>
+                <think>
+                    <set name="option">Systems Analyst</set>
+                    <set name="interest"><star/></set>
+                </think>
+                <condition name="interest">
+                    <li value="information">Information technology is an evolving field! Tons of new skills to learn.<br/></li>
+                    <li value="analysis">Analysis of networks takes a skilled individual! But that's what training is for!<br/></li>
+                    <li value="infrastructure">Designing and maintaining infrastructure is needed at many businesses!<br/></li>
+                    <li value="computer">Computers aren't going anywhere!Great interest!<br/></li>
+                    <li>Those are excellent interests in computers!<br/></li>
+                </condition>
+                <srai>SCHOOL QUESTIONS</srai>
+            </template>
+        </category>
+
+        <category>
+            <pattern>^ <set>networkarchitectinterests</set> ^</pattern>
+            <template>
+                <think>
+                    <set name="option">Network Architect</set>
+                    <set name="interest"><star/></set>
+                </think>
+                <condition name="interest">
+                    <li value="networks">Networks are needed at many businesses!<br/></li>
+                    <li value="internet">The internet is essentially a very big interconnected network. There are no shortage of topics here!<br/></li>
+                    <li value="security">Security is very important. Networks need that!<br/></li>
+                    <li value="connections">Connections are how we reach other! Technology will always needs this!<br/></li>
+                    <li>Those are excellent interests in network aspects!<br/></li>
+                </condition>
+                <srai>SCHOOL QUESTIONS</srai>
+            </template>
+        </category>
+
+        <category>
+            <pattern>*</pattern>
+            <that>DOES THAT SOUND GOOD</that>
+            <template>
+                Great! <srai>SCHOOL QUESTIONS</srai>
+            </template>
+        </category>
+    
+    </topic>
+    
+</aiml>

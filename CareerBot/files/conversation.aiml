@@ -1,0 +1,31 @@
+    
+    <category>
+        <pattern>* TOO HARD ^</pattern>
+        <template>
+            Work smarter, not harder. Good thinking!
+        </template>
+    </category>
+    
+    <category>
+        <pattern>* FAIR *</pattern>
+        <template>
+            Fair is fair! The key to happy employees.
+        </template>
+    </category>
+    
+    <category>
+        <pattern>^ GREAT ^ CUSTOMER SERVICE ^</pattern>
+        <template>
+            Now'adays excellent customer service is so important!
+        </template>
+    </category>
+    
+    <category>
+        <pattern>NOTHING</pattern>
+        <template>
+            Take all advice with a grain of salt! But, based on our conversation, I would recommend <get name="option"/>.<br/>
+            Thanks for letting me help! You have a great future ahead in IT!
+        </template>
+    </category>
+
+</aiml>

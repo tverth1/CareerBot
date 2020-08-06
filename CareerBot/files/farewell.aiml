@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	
+	<category>
+	    <pattern>^ BYE ^</pattern>
+	    <template>
+	        Goodbye, thanks for chatting!
+	    </template>
+    </category>
+    
+    <category>
+        <pattern>^ TALK TO YOU LATER ^</pattern>
+        <template>
+            Goodluck and farewell to thee!
+        </template>
+    </category>
+    
+    <category>
+        <pattern>BUH BYE</pattern>
+        <template><srai>^ BYE ^</srai></template>
+    </category>
+	
+</aiml>
