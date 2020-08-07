@@ -4,14 +4,14 @@
 	<category>
 	    <pattern>^ BYE ^</pattern>
 	    <template>
-	        Goodbye, thanks for chatting!
+	        Goodbye my bright pupil!
 	    </template>
     </category>
     
     <category>
         <pattern>^ TALK TO YOU LATER ^</pattern>
         <template>
-            Goodluck and farewell to thee!
+            Farewell and good luck on your journey!
         </template>
     </category>
     

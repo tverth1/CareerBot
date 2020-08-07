@@ -8,9 +8,9 @@
             <template>
                 <think><set name="option">Systems Analyst</set></think>
                 <random>
-                    <li><think><set name="current">2</set></think>Computer systems are everywhere! Any IT professional should do their best to know them!<br/></li>
-                    <li><think><set name="current">11</set></think>Computers are a difficult subject to learn and harder to maintain, but they make business and life much easier!<br/></li>
-                    <li><think><set name="current">9</set></think>Computers? Where would we be without 'em!<br/></li>
+                    <li><think><set name="current">2</set></think>Computer systems exist all over the place. It's a good idea to have a good grasp of them!<br/></li>
+                    <li><think><set name="current">11</set></think>Computers are difficult to understand sometimes but so helpful!<br/></li>
+                    <li><think><set name="current">9</set></think>Where would we be without computers?! Honestly! Great interest!<br/></li>
                 </random>
                 <srai>INTEREST QUESTIONS</srai>
             </template>
@@ -34,9 +34,9 @@
             <template>
                 <think><set name="option">Database Administrator</set></think>
                 <random>
-                    <li><think><set name="current">1</set></think>Data is important! Businesses can use it to target customers or make their product more efficient.<br/></li>
-                    <li><think><set name="current">3</set></think>Data is one of those things you can't run from and you're always giving it away!<br/></li>
-                    <li><think><set name="current">11</set></think>Honestly, businesses can never get enough of this data stuff!<br/></li>
+                    <li><think><set name="current">1</set></think>Data is a vital element of our society. Knowing how to handle it is a key skill for sure!<br/></li>
+                    <li><think><set name="current">3</set></think>Data is one of those things you can't escape! Great interest!<br/></li>
+                    <li><think><set name="current">11</set></think>Everyone needs help with data in some way! You're amazing for thinking about that type of stuff!<br/></li>
                 </random>
                 <srai>INTEREST QUESTIONS</srai>
             </template>
@@ -47,9 +47,9 @@
             <template>
              <think><set name="option">Web Developer</set></think>
                 <random>
-                    <li><think><set name="current">11</set></think>Creativity is such a varied skill! Some have a lot, some have their moments, some can't find it at all!<br/></li>
-                    <li><think><set name="current">7</set></think>Design and visualization are so important but so difficult to master!<br/></li>
-                    <li><think><set name="current">6</set></think>Being creative is so satisfying!<br/></li>
+                    <li><think><set name="current">11</set></think>Creativity is not learned but something you're born with. You sound like you're born with it!<br/></li>
+                    <li><think><set name="current">7</set></think>Design and visualization are difficult to master. It sounds like you've got it mastered!<br/></li>
+                    <li><think><set name="current">6</set></think>Creativity brings such a deep satisfaction. Awesome interest!<br/></li>
                 </random>
                 <srai>INTEREST QUESTIONS</srai>
             </template>
@@ -74,7 +74,7 @@
                     <set name="option">Software Engineer</set>
                 </think>
                 <random>
-                    <li><think><set name="current">9</set></think>Software needs more minds like yours! <br/></li>
+                    <li><think><set name="current">9</set></think>Software plays a vital role in our society today. Good thing you're interested in it!<br/></li>
                     <li><think><set name="current">11</set></think></li>
                 </random>
                 <srai>INTEREST QUESTIONS</srai>
@@ -261,9 +261,11 @@
             <template>
                 <think><set name="topic">*</set></think>
                 My top recommendation for you is: <get name="option"/>! This is a great career path!<br/>
+		<br/>
+		If you are unsatisfied with this career path please contact your adviser or please try again.<br/>
+
                 Thank you for letting me assist you in making your decision.<br/>
-                Have a wonderful day!<br/>
-		If you are not satisfied with the suggestion, try again OR contact an adviser directly.
+                Have a wonderful day! 
             </template>
         </category>
     
