@@ -262,7 +262,8 @@
                 <think><set name="topic">*</set></think>
                 My top recommendation for you is: <get name="option"/>! This is a great career path!<br/>
                 Thank you for letting me assist you in making your decision.<br/>
-                Have a wonderful day!
+                Have a wonderful day!<br/>
+		If you are not satisfied with the suggestion, try again OR contact an adviser directly.
             </template>
         </category>
     
