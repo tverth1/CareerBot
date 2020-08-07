@@ -11,9 +11,9 @@
                     <set name="interest"><star/></set>
                 </think>
                 <condition name="interest">
-                    <li value="applications">Applications are vital in the tech industry. Very cool interest!<br/></li>
-                    <li value="software">Software is a major part of the tech industry. Great interest!<br/></li>
-                    <li value="program">Programming skills are a constant need in the tech industry. Great skill and interest!<br/></li>
+                    <li value="applications">Applications are important part of the industry. <br/></li>
+                    <li value="software">Software helps customers use the hardware! Very important.<br/></li>
+                    <li value="program">Programming takes patience and smarts!<br/></li>
                     <li value="programming">Programming skills are a constant need in the tech industry. Great skill and interest!<br/></li>
                     <li>Those are excellent interests in engineering aspects!<br/></li>
                 </condition>
@@ -29,9 +29,9 @@
                     <set name="interest"><star/></set>
                 </think>
                 <condition name="interest">
-                    <li value="websites">Websites play a major role in businesses and their web presence. Great interest!<br/></li>
-                    <li value="marketing">Marketing is a skill that takes lots of research. Great skill to have!<br/></li>
-                    <li value="branding">Some people have a hard time with branding in this industry. You're ahead of game!<br/></li>
+                    <li value="websites">Websites communicate a companies presence!<br/></li>
+                    <li value="marketing">Marketing correctly takes a lot of research!<br/></li>
+                    <li value="branding">Branding can change how your product is perceived!<br/></li>
                     <li>Those are excellent interests in design aspects!<br/></li>
                 </condition>
                 <srai>SCHOOL QUESTIONS</srai>
@@ -46,10 +46,10 @@
                     <set name="interest"><star/></set>
                 </think>
                 <condition name="interest">
-                    <li value="databases">Databases can get really big. Having an interest in them means you can handle big data!<br/></li>
-                    <li value="collections">Collections require some finesse with categories and attributes. You've got great interests!<br/></li>
-                    <li value="organization">Organization is not easy for everyone. You're one step ahead with this skill!<br/></li>
-                    <li value="administration">Admin work is not for everyone. You must have some great leadership skills to be interested in this type of work. Awesome!<br/></li>
+                    <li value="databases">Databases can get big!<br/></li>
+                    <li value="collections">Collections require some finesse. You've got what it takes!<br/></li>
+                    <li value="organization">Organization is not everyone's best skill. If you're organized you're ahead of the game!<br/></li>
+                    <li value="administration">Admin work takes strong leadership skills!<br/></li>
                     <li>Those are excellent interests in data aspects!<br/></li>
                 </condition>
                 <srai>SCHOOL QUESTIONS</srai>
@@ -64,10 +64,10 @@
                     <set name="interest"><star/></set>
                 </think>
                 <condition name="interest">
-                    <li value="information">Information technology is constantly changing and growing. Great industry to be interested in!<br/></li>
-                    <li value="analysis">Analysis takes special skills. You can definitely do this!<br/></li>
-                    <li value="infrastructure">Being able to analyze and design infrastructures is very cool! Great interest!<br/></li>
-                    <li value="computer">Computers will be around for a very long time. Great interest!<br/></li>
+                    <li value="information">IT is a rapidly growing field!<br/></li>
+                    <li value="analysis">Analysis takes a special skill set.<br/></li>
+                    <li value="infrastructure">Analyzing infrastruce helps keep the network running.<br/></li>
+                    <li value="computer">Computers will be around for a long time!<br/></li>
                     <li>Those are excellent interests in computer aspects!<br/></li>
                 </condition>
                 <srai>SCHOOL QUESTIONS</srai>
@@ -82,10 +82,10 @@
                     <set name="interest"><star/></set>
                 </think>
                 <condition name="interest">
-                    <li value="networks">Networks are a fascinating topic. Great interest!<br/></li>
-                    <li value="internet">The internet is a huge network of information. You'll have so many different topics to choose. That is an awesome interest!<br/></li>
-                    <li value="security">Security is something that is getting very serious. Great topic to get interested in!<br/></li>
-                    <li value="connections">Connections are the way information are transferred around. Cool interest!<br/></li>
+                    <li value="networks">Networks are fascinating.<br/></li>
+                    <li value="internet">The internet is a huge network of information.<br/></li>
+                    <li value="security">Security is important!<br/></li>
+                    <li value="connections">Connections help transfer information within the network and network to network!<br/></li>
                     <li>Those are excellent interests in network aspects!<br/></li>
                 </condition>
                 <srai>SCHOOL QUESTIONS</srai>

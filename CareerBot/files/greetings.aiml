@@ -18,7 +18,7 @@
     <category>
         <pattern>HELLO ^</pattern>
         <template>
-            Hello, I am Jane.<br/> 
+            Hello, I am Anthony.<br/> 
             What is your name?
         </template>
     </category>
@@ -61,8 +61,8 @@
         <that>DO YOU NEED HELP CHOOSING A CAREER PATH</that>
         <template>
             <think><set name="topic">school interview</set></think>
-            I can help with that!<br/>
-            Let's talk about your goals and interests and see which path is the best for you. <br/>
+            I can help!<br/>
+            Let's talk about your goals and interests. Then I'll give my advice!<br/>
             Does that sound good?
         </template>
     </category>
