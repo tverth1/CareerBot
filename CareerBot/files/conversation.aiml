@@ -40,7 +40,7 @@
         <pattern>NOTHING</pattern>
         <template>
             I'm ready to give you my recommendation for your career path. Based on our
-            conversation, I would recommend <get name="option"/>.<br>
+            conversation, I would recommend <get name="option"/>.<br/>
 	    If this suggestion is unsatisfying, please try again or contact an Adviser!
             Thanks for letting me help! Have a great day and good luck!
         </template>
